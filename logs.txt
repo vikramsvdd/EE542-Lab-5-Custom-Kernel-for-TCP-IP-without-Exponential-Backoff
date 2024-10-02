@@ -1,0 +1,483 @@
+602190] i8042: Warning: Keylock active
+[    0.604958] serio: i8042 KBD port at 0x60,0x64 irq 1
+[    0.606516] serio: i8042 AUX port at 0x60,0x64 irq 12
+[    0.608870] rtc_cmos 00:02: registered as rtc0
+[    0.610318] rtc_cmos 00:02: alarms up to one day, 114 bytes nvram, hpet irqs
+[    0.612949] device-mapper: ioctl: 4.41.0-ioctl (2019-09-16) initialised: dm-devel@redhat.com
+[    0.615590] intel_pstate: CPU model not supported
+[    0.617077] hidraw: raw HID events driver (C) Jiri Kosina
+[    0.618778] usbcore: registered new interface driver usbhid
+[    0.620446] usbhid: USB HID core driver
+[    0.622561] Initializing XFRM netlink socket
+[    0.624060] NET: Registered protocol family 10
+[    0.626122] Segment Routing with IPv6
+[    0.628176] sit: IPv6, IPv4 and MPLS over IPv4 tunneling driver
+[    0.630007] NET: Registered protocol family 17
+[    0.631461] Key type dns_resolver registered
+[    0.657665] IPI shorthand broadcast: enabled
+[    0.659095] sched_clock: Marking stable (663033996, -3947966)->(716601063, -57515033)
+[    0.661680] registered taskstats version 1
+[    0.663033] Loading compiled-in X.509 certificates
+[    0.664675] PM:   Magic number: 8:10:653
+[    0.666010] vc vcsu1: hash matches
+[    0.667220] acpi LNXCPU:06: hash matches
+[    0.668555] printk: console [netcon0] enabled
+[    0.669961] netconsole: network logging started
+[    0.671450] cfg80211: Loading compiled-in X.509 certificates for regulatory database
+[    0.674673] modprobe (71) used greatest stack depth: 14552 bytes left
+[    0.677887] cfg80211: Loaded X.509 cert 'sforshee: 00b28ddf47aef9cea7'
+[    0.679807] platform regulatory.0: Direct firmware load for regulatory.db failed with error -2
+[    0.682076] ALSA device list:
+[    0.682458] cfg80211: failed to load regulatory.db
+[    0.683625]   No soundcards found.
+[    0.731536] ata1.00: ATA-7: QEMU HARDDISK, 2.5+, max UDMA/100
+[    0.733253] ata1.00: 104857600 sectors, multi 16: LBA48 
+[    0.736499] scsi 0:0:0:0: Direct-Access     ATA      QEMU HARDDISK    2.5+ PQ: 0 ANSI: 5
+[    0.739165] scsi 0:0:0:0: Attached scsi generic sg0 type 0
+[    0.739638] sd 0:0:0:0: [sda] 104857600 512-byte logical blocks: (53.7 GB/50.0 GiB)
+[    0.743295] sd 0:0:0:0: [sda] Write Protect is off
+[    0.744789] sd 0:0:0:0: [sda] Write cache: disabled, read cache: enabled, doesn't support DPO or FUA
+[    0.749231]  sda: sda1
+[    0.750637] sd 0:0:0:0: [sda] Attached SCSI disk
+[    0.752973] Freeing unused kernel image memory: 1356K
+[    0.757082] Write protecting the kernel read-only data: 20480k
+[    0.759214] Freeing unused kernel image memory: 2028K
+[    0.760932] Freeing unused kernel image memory: 860K
+[    0.762466] Run /init as init process
+[    0.766126] mount (79) used greatest stack depth: 14424 bytes left
+Loading, please wait...
+[    0.772096] exe (89) used greatest stack depth: 14104 bytes left
+starting version 237
+[    1.105860] systemd-udevd (122) used greatest stack depth: 13608 bytes left
+[    1.115970] input: AT Translated Set 2 keyboard as /devices/platform/i8042/serio0/input/input2
+[    1.499120] tsc: Refined TSC clocksource calibration: 2300.031 MHz
+[    1.500951] clocksource: tsc: mask: 0xffffffffffffffff max_cycles: 0x212752a6dd1, max_idle_ns: 440795291434 ns
+[    1.504072] clocksource: Switched to clocksource tsc
+[    1.545123] input: ImPS/2 Generic Wheel Mouse as /devices/platform/i8042/serio1/input/input4
+Begin: Loading essential drivers ... done.
+Begin: Running /scripts/init-premount ... done.
+Begin: Mounting root file system ... Begin: Running /scripts/local-top ... done.
+Begin: Running /scripts/local-premount ... done.
+Begin: Will now check root file system ... fsck from util-linux 2.31.1
+[/sbin/fsck.ext4 (1) -- /dev/sda1] fsck.ext4 -a -C0 /dev/sda1 
+cloudimg-rootfs: recovering journal
+cloudimg-rootfs: Clearing orphaned inode 85 (uid=0, gid=0, mode=0100700, size=4096)
+cloudimg-rootfs: Clearing orphaned inode 60 (uid=0, gid=0, mode=0100700, size=4096)
+cloudimg-rootfs: clean, 205052/6400000 files, 1272806/13106939 blocks
+done.
+[    3.528804] EXT4-fs (sda1): mounted filesystem with ordered data mode. Opts: (null)
+done.
+Begin: Running /scripts/local-bottom ... done.
+Begin: Running /scripts/init-bottom ... done.
+[    3.684471] run-init (286) used greatest stack depth: 13576 bytes left
+SELinux:  Could not open policy file <= /etc/selinux/targeted/policy/policy.31:  No such file or directory
+[    4.917856] systemd[1]: systemd 237 running in system mode. (+PAM +AUDIT +SELINUX +IMA +APPARMOR +SMACK +SYSVINIT +UTMP +LIBCRYPTSETUP +GCRYPT +GNUTLS +ACL +XZ +LZ4 +SECCOMP +BLKID +ELFUTILS +KMOD -IDN2 +IDN -PCRE2 default-hierarchy=hybrid)
+[    4.924006] systemd[1]: Detected virtualization xen.
+[    4.925554] systemd[1]: Detected architecture x86-64.
+
+Welcome to [1mUbuntu 18.04.6 LTS[0m!
+
+[    4.936276] systemd[1]: Set hostname to <ip-10-0-3-64>.
+[    4.957379] snapd-env-gener (291) used greatest stack depth: 13544 bytes left
+[    5.141545] systemd-getty-g (301) used greatest stack depth: 13536 bytes left
+[    5.143599] systemd-rc-loca (304) used greatest stack depth: 13288 bytes left
+[    5.747714] cat (308) used greatest stack depth: 13168 bytes left
+[    5.749519] mkdir (309) used greatest stack depth: 13040 bytes left
+[    5.872015] systemd-gpt-aut (302) used greatest stack depth: 12968 bytes left
+[    6.243133] systemd[1]: File /lib/systemd/system/systemd-journald.service:36 configures an IP firewall (IPAddressDeny=any), but the local system does not support BPF/cgroup based firewalling.
+[    6.247912] systemd[1]: Proceeding WITHOUT firewalling in effect! (This warning is only shown for the first loaded unit using IP firewalling.)
+[    6.582297] systemd[1]: Reached target Mounting snaps.
+[[0;32m  OK  [0m] Reached target Mounting snaps.
+[    6.584630] systemd[1]: Reached target User and Group Name Lookups.
+[[0;32m  OK  [0m] Reached target User and Group Name Lookups.
+[    6.587154] systemd[1]: Reached target Swap.
+[[0;32m  OK  [0m] Reached target Swap.
+[    6.589060] systemd[1]: Started Forward Password Requests to Wall Directory Watch.
+[[0;32m  OK  [0m] Started Forward Password Requests to Wall Directory Watch.
+[[0;32m  OK  [0m] Created slice System Slice.
+[[0;32m  OK  [0m] Listening on LVM2 metadata daemon socket.
+[[0;32m  OK  [0m] Listening on /dev/initctl Compatibility Named Pipe.
+[[0;32m  OK  [0m] Listening on Syslog Socket.
+[[0;32m  OK  [0m] Listening on udev Control Socket.
+[[0;32m  OK  [0m] Listening on Journal Socket (/dev/log).
+[[0;32m  OK  [0m] Listening on Device-mapper event daemon FIFOs.
+[[0;32m  OK  [0m] Listening on Network Service Netlink Socket.
+[[0;32m  OK  [0m] Listening on LVM2 poll daemon socket.
+[[0;32m  OK  [0m] Created slice User and Session Slice.
+[[0;32m  OK  [0m] Reached target Slices.
+[[0;32m  OK  [0m] Listening on Journal Socket.
+         Starting Uncomplicated firewall...
+         Starting Monitoring of LVM2 mirrorsâ¦ng dmeventd or progress polling...
+         Starting Remount Root and Kernel File Systems...
+         Starting Load Kernel Modules...
+         Mounting POSIX Message Queue File System...
+         Mounting Huge Pages File System...
+         Mounting Kernel Debug File System...
+[    6.710288] EXT4-fs (sda1): re-mounted. Opts: discard
+         Starting Create Static Device Nodes in /dev...
+         Starting Set the console keyboard layout...
+[[0;32m  OK  [0m] Created slice system-serial\x2dgetty.slice.
+[[0;32m  OK  [0m] Listening on Journal Audit Socket.
+         Starting Journal Service...
+[[0;32m  OK  [0m] Listening on udev Kernel Socket.
+         Starting udev Coldplug all Devices...
+[[0;32m  OK  [0m] Set up automount Arbitrary Executabâ¦rmats File System Automount Point.
+[[0;32m  OK  [0m] Started Uncomplicated firewall.
+[[0;32m  OK  [0m] Started Remount Root and Kernel File Systems.
+[[0;32m  OK  [0m] Mounted POSIX Message Queue File System.
+[[0;32m  OK  [0m] Mounted Huge Pages File System.
+[[0;32m  OK  [0m] Mounted Kernel Debug File System.
+         Starting Load/Save Random Seed...
+[[0;32m  OK  [0m] Started Load/Save Random Seed.
+[[0;32m  OK  [0m] Started udev Coldplug all Devices.
+[[0;32m  OK  [0m] Started Journal Service.
+         Starting Flush Journal to Persistent Storage...
+[    6.921870] systemd-journald[330]: Received request to flush runtime journal from PID 1
+[[0;32m  OK  [0m] Started Create Static Device Nodes in /dev.
+         Starting udev Kernel Device Manager...
+[[0;32m  OK  [0m] Started LVM2 metadata daemon.
+[[0;1;31mFAILED[0m] Failed to start Load Kernel Modules.
+See 'systemctl status systemd-modules-load.service' for details.
+         Starting Apply Kernel Variables...
+[    7.132147] systemd-journald[330]: File /var/log/journal/238d19d55f8848c3a45a611500ccca45/system.journal corrupted or uncleanly shut down, renaming and replacing.
+[[0;32m  OK  [0m] Started Monitoring of LVM2 mirrors,â¦sing dmeventd or progress polling.
+[[0;32m  OK  [0m] Started Apply Kernel Variables.
+[[0;32m  OK  [0m] Started udev Kernel Device Manager.
+[[0;32m  OK  [0m] Started Flush Journal to Persistent Storage.
+[[0;32m  OK  [0m] Found device /dev/ttyS0.
+[[0;32m  OK  [0m] Listening on Load/Save RF Kill Switch Status /dev/rfkill Watch.
+[[0;32m  OK  [0m] Started Set the console keyboard layout.
+[[0;32m  OK  [0m] Reached target Local File Systems (Pre).
+         Mounting Mount unit for amazon-ssm-agent, revision 6312...
+         Mounting Mount unit for snapd, revision 21759...
+         Mounting Mount unit for canonical-livepatch, revision 264...
+         Mounting Mount unit for core, revision 17200...
+         Mounting Mount unit for core18, revision 2823...
+         Mounting Mount unit for core18, revision 2829...
+         Mounting Mount unit for amazon-ssm-agent, revision 3552...
+         Mounting Mount unit for core, revision 16928...
+         Mounting Mount unit for core22, revision 1621...
+         Mounting Mount unit for snapd, revision 21465...
+         Mounting Mount unit for core22, revision 1380...
+[[0;32m  OK  [0m] Started Dispatch Password Requests to Console Directory Watch.
+[[0;32m  OK  [0m] Reached target Local Encrypted Volumes.
+[[0;1;31mFAILED[0m] Failed to mount Mount unit for amazon-ssm-agent, revision 6312.
+See 'systemctl status "snap-amazon\\x2dssm\\x2dagent-6312.mount"' for details.
+[[0;1;33mDEPEND[0m] Dependency failed for Service for sâ¦amazon-ssm-agent.amazon-ssm-agent.
+[[0;1;31mFAILED[0m] Failed to mount Mount unit for snapd, revision 21759.
+See 'systemctl status snap-snapd-21759.mount' for details.
+[[0;1;31mFAILED[0m] Failed to mount Mount unit for canonical-livepatch, revision 264.
+See 'systemctl status "snap-canonical\\x2dlivepatch-264.mount"' for details.
+[[0;1;33mDEPEND[0m] Dependency failed for Service for sâ¦al-livepatch.canonical-livepatchd.
+[[0;1;31mFAILED[0m] Failed to mount Mount unit for core, revision 17200.
+See 'systemctl status snap-core-17200.mount' for details.
+[[0;1;31mFAILED[0m] Failed to mount Mount unit for core18, revision 2823.
+See 'systemctl status snap-core18-2823.mount' for details.
+[[0;1;31mFAILED[0m] Failed to mount Mount unit for core18, revision 2829.
+See 'systemctl status snap-core18-2829.mount' for details.
+[[0;1;31mFAILED[0m] Failed to mount Mount unit for amazon-ssm-agent, revision 3552.
+See 'systemctl status "snap-amazon\\x2dssm\\x2dagent-3552.mount"' for details.
+[[0;1;31mFAILED[0m] Failed to mount Mount unit for core, revision 16928.
+See 'systemctl status snap-core-16928.mount' for details.
+[[0;1;31mFAILED[0m] Failed to mount Mount unit for core22, revision 1621.
+See 'systemctl status snap-core22-1621.mount' for details.
+[[0;1;31mFAILED[0m] Failed to mount Mount unit for snapd, revision 21465.
+See 'systemctl status snap-snapd-21465.mount' for details.
+[[0;1;31mFAILED[0m] Failed to mount Mount unit for core22, revision 1380.
+See 'systemctl status snap-core22-1380.mount' for details.
+[[0;32m  OK  [0m] Reached target Mounted snaps.
+[[0;32m  OK  [0m] Reached target Local File Systems.
+         Starting Tell Plymouth To Write Out Runtime Data...
+         Starting ebtables ruleset management...
+         Starting Set console font and keymap...
+         Starting Create Volatile Files and Directories...
+[[0;32m  OK  [0m] Started Set console font and keymap.
+[[0;32m  OK  [0m] Started Tell Plymouth To Write Out Runtime Data.
+[[0;32m  OK  [0m] Started Create Volatile Files and Directories.
+         Starting Network Time Synchronization...
+         Starting Update UTMP about System Boot/Shutdown...
+         Starting Initial cloud-init job (pre-networking)...
+[[0;32m  OK  [0m] Started Update UTMP about System Boot/Shutdown.
+[[0;32m  OK  [0m] Started ebtables ruleset management.
+[[0;32m  OK  [0m] Started Network Time Synchronization.
+[[0;32m  OK  [0m] Reached target System Time Synchronized.
+         Mounting Arbitrary Executable File Formats File System...
+[[0;32m  OK  [0m] Mounted Arbitrary Executable File Formats File System.
+[   15.343609] cloud-init[482]: Cloud-init v. 23.1.2-0ubuntu0~18.04.1 running 'init-local' at Sun, 29 Sep 2024 21:38:02 +0000. Up 15.01 seconds.
+[   15.345544] cloud-init[482]: 2024-09-29 21:38:02,343 - util.py[WARNING]: Getting data from <class 'cloudinit.sources.DataSourceEc2.DataSourceEc2Local'> failed
+[   15.388270] cloud-init[482]: 2024-09-29 21:38:02,388 - networking.py[WARNING]: Not all expected physical devices present: {'00:00:00:00'}
+[   15.389986] cloud-init[482]: 2024-09-29 21:38:02,388 - util.py[WARNING]: failed stage init-local
+[   15.400512] cloud-init[482]: failed run of stage init-local
+[   15.401330] cloud-init[482]: ------------------------------------------------------------
+[   15.402371] cloud-init[482]: Traceback (most recent call last):
+[   15.403174] cloud-init[482]:   File "/usr/lib/python3/dist-packages/cloudinit/cmd/main.py", line 385, in main_init
+[   15.404454] cloud-init[482]:     init.fetch(existing=existing)
+[   15.405347] cloud-init[482]:   File "/usr/lib/python3/dist-packages/cloudinit/stages.py", line 436, in fetch
+[   15.406604] cloud-init[482]:     return self._get_data_source(existing=existing)
+[   15.407595] cloud-init[482]:   File "/usr/lib/python3/dist-packages/cloudinit/stages.py", line 334, in _get_data_source
+[   15.408913] cloud-init[482]:     self.reporter,
+[   15.409528] cloud-init[482]:   File "/usr/lib/python3/dist-packages/cloudinit/sources/__init__.py", line 1009, in find_source
+[   15.410943] cloud-init[482]:     raise DataSourceNotFoundException(msg)
+[   15.411909] cloud-init[482]: cloudinit.sources.DataSourceNotFoundException: Did not find any data source, searched classes: (DataSourceEc2Local)
+[   15.413709] cloud-init[482]: During handling of the above exception, another exception occurred:
+[   15.414864] cloud-init[482]: Traceback (most recent call last):
+[   15.415660] cloud-init[482]:   File "/usr/lib/python3/dist-packages/cloudinit/cmd/main.py", line 767, in status_wrapper
+[   15.416979] cloud-init[482]:     ret = functor(name, args)
+[   15.417701] cloud-init[482]:   File "/usr/lib/python3/dist-packages/cloudinit/cmd/main.py", line 406, in main_init
+[   15.419010] cloud-init[482]:     init.apply_network_config(bring_up=bring_up_interfaces)
+[   15.420452] cloud-init[482]:   File "/usr/lib/python3/dist-packages/cloudinit/stages.py", line 925, in apply_network_config
+[   15.422118] cloud-init[482]:     self.distro.networking.wait_for_physdevs(netcfg)
+[   15.423118] cloud-init[482]:   File "/usr/lib/python3/dist-packages/cloudinit/distros/networking.py", line 179, in wait_for_physdevs
+[   15.424611] cloud-init[482]:     raise RuntimeError(msg)
+[   15.425339] cloud-init[482]: RuntimeError: Not all expected physical devices present: {'00:00:00:00'}
+[   15.426513] cloud-init[482]: ------------------------------------------------------------
+[[0;1;31mFAILED[0m] Failed to start Initial cloud-init job (pre-networking).
+See 'systemctl status cloud-init-local.service' for details.
+[[0;32m  OK  [0m] Reached target Network (Pre).
+         Starting Network Service...
+[[0;32m  OK  [0m] Started Network Service.
+         Starting Network Name Resolution...
+         Starting Wait for Network to be Configured...
+[[0;32m  OK  [0m] Started Wait for Network to be Configured.
+         Starting Initial cloud-init job (metadata service crawler)...
+[[0;32m  OK  [0m] Started Network Name Resolution.
+[[0;32m  OK  [0m] Reached target Network.
+[[0;32m  OK  [0m] Reached target Host and Network Name Lookups.
+[   16.174772] cloud-init[539]: Cloud-init v. 23.1.2-0ubuntu0~18.04.1 running 'init' at Sun, 29 Sep 2024 21:38:02 +0000. Up 15.96 seconds.
+[   16.176390] cloud-init[539]: ci-info: ++++++++++++++++++++++++++Net device info++++++++++++++++++++++++++
+[   16.177600] cloud-init[539]: ci-info: +--------+------+----------------+-----------+-------+------------+
+[   16.178829] cloud-init[539]: ci-info: | Device |  Up  |    Address     |    Mask   | Scope | Hw-Address |
+[   16.180007] cloud-init[539]: ci-info: +--------+------+----------------+-----------+-------+------------+
+[   16.181187] cloud-init[539]: ci-info: |   lo   | True |   127.0.0.1    | 255.0.0.0 |  host |     .      |
+[   16.182344] cloud-init[539]: ci-info: |   lo   | True |    ::1/128     |     .     |  host |     .      |
+[   16.183548] cloud-init[539]: ci-info: |  sit0  | True | ::127.0.0.1/96 |     .     |  host |     .      |
+[   16.184714] cloud-init[539]: ci-info: +--------+------+----------------+-----------+-------+------------+
+[   16.185897] cloud-init[539]: ci-info: +++++++++++++++++++Route IPv6 info+++++++++++++++++++
+[   16.187026] cloud-init[539]: ci-info: +-------+-------------+---------+-----------+-------+
+[   16.188083] cloud-init[539]: ci-info: | Route | Destination | Gateway | Interface | Flags |
+[   16.189132] cloud-init[539]: ci-info: +-------+-------------+---------+-----------+-------+
+[   16.190172] cloud-init[539]: ci-info: |   2   |    local    |    ::   |    sit0   |   U   |
+[   16.191210] cloud-init[539]: ci-info: |   3   |    ::/96    |    ::   |    sit0   |   U   |
+[   16.192245] cloud-init[539]: ci-info: +-------+-------------+---------+-----------+-------+
+[   16.193283] cloud-init[539]: 2024-09-29 21:38:03,174 - url_helper.py[WARNING]: Exception(s) [UrlError("HTTPConnectionPool(host='169.254.169.254', port=80): Max retries exceeded with url: /latest/api/token (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f85a49f3550>: Failed to establish a new connection: [Errno 101] Network is unreachable',))",), UrlError("HTTPConnectionPool(host='fd00:ec2::254', port=80): Max retries exceeded with url: /latest/api/token (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f85a49f3e48>: Failed to establish a new connection: [Errno 101] Network is unreachable',))",)] during request to http://[fd00:ec2::254]/latest/api/token, raising last exception
+[   16.201791] cloud-init[539]: 2024-09-29 21:38:03,174 - url_helper.py[WARNING]: Calling 'None' failed [0/120s]: request error [HTTPConnectionPool(host='fd00:ec2::254', port=80): Max retries exceeded with url: /latest/api/token (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f85a49f3e48>: Failed to establish a new connection: [Errno 101] Network is unreachable',))]
+[   17.328681] cloud-init[539]: 2024-09-29 21:38:04,328 - url_helper.py[WARNING]: Exception(s) [UrlError("HTTPConnectionPool(host='169.254.169.254', port=80): Max retries exceeded with url: /latest/api/token (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f85a3571ba8>: Failed to establish a new connection: [Errno 101] Network is unreachable',))",), UrlError("HTTPConnectionPool(host='fd00:ec2::254', port=80): Max retries exceeded with url: /latest/api/token (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f85a357f4e0>: Failed to establish a new connection: [Errno 101] Network is unreachable',))",)] during request to http://[fd00:ec2::254]/latest/api/token, raising last exception
+[   17.336225] cloud-init[539]: 2024-09-29 21:38:04,328 - url_helper.py[WARNING]: Calling 'None' failed [1/120s]: request error [HTTPConnectionPool(host='fd00:ec2::254', port=80): Max retries exceeded with url: /latest/api/token (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f85a357f4e0>: Failed to establish a new connection: [Errno 101] Network is unreachable',))]
+[   18.483261] cloud-init[539]: 2024-09-29 21:38:05,482 - url_helper.py[WARNING]: Exception(s) [UrlError("HTTPConnectionPool(host='169.254.169.254', port=80): Max retries exceeded with url: /latest/api/token (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f85a3571860>: Failed to establish a new connection: [Errno 101] Network is unreachable',))",), UrlError("HTTPConnectionPool(host='fd00:ec2::254', port=80): Max retries exceeded with url: /latest/api/token (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f85a357f0f0>: Failed to establish a new connection: [Errno 101] Network is unreachable',))",)] during request to http://[fd00:ec2::254]/latest/api/token, raising last exception
+[   18.490827] cloud-init[539]: 2024-09-29 21:38:05,482 - url_helper.py[WARNING]: Calling 'None' failed [2/120s]: request error [HTTPConnectionPool(host='fd00:ec2::254', port=80): Max retries exceeded with url: /latest/api/token (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f85a357f0f0>: Failed to establish a new connection: [Errno 101] Network is unreachable',))]
+[   19.638303] cloud-init[539]: 2024-09-29 21:38:06,637 - url_helper.py[WARNING]: Exception(s) [UrlError("HTTPConnectionPool(host='169.254.169.254', port=80): Max retries exceeded with url: /latest/api/token (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f85a358d0b8>: Failed to establish a new connection: [Errno 101] Network is unreachable',))",), UrlError("HTTPConnectionPool(host='fd00:ec2::254', port=80): Max retries exceeded with url: /latest/api/token (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f85a358db38>: Failed to establish a new connection: [Errno 101] Network is unreachable',))",)] during request to http://[fd00:ec2::254]/latest/api/token, raising last exception
+[   19.646370] cloud-init[539]: 2024-09-29 21:38:06,637 - url_helper.py[WARNING]: Calling 'None' failed [3/120s]: request error [HTTPConnectionPool(host='fd00:ec2::254', port=80): Max retries exceeded with url: /latest/api/token (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f85a358db38>: Failed to establish a new connection: [Errno 101] Network is unreachable',))]
+[   20.793386] cloud-init[539]: 2024-09-29 21:38:07,792 - url_helper.py[WARNING]: Exception(s) [UrlError("HTTPConnectionPool(host='169.254.169.254', port=80): Max retries exceeded with url: /latest/api/token (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f85a359a710>: Failed to establish a new connection: [Errno 101] Network is unreachable',))",), UrlError("HTTPConnectionPool(host='fd00:ec2::254', port=80): Max retries exceeded with url: /latest/api/token (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f85a330f1d0>: Failed to establish a new connection: [Errno 101] Network is unreachable',))",)] during request to http://[fd00:ec2::254]/latest/api/token, raising last exception
+[   20.801400] cloud-init[539]: 2024-09-29 21:38:07,793 - url_helper.py[WARNING]: Calling 'None' failed [4/120s]: request error [HTTPConnectionPool(host='fd00:ec2::254', port=80): Max retries exceeded with url: /latest/api/token (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f85a330f1d0>: Failed to establish a new connection: [Errno 101] Network is unreachable',))]
+[   21.946740] cloud-init[539]: 2024-09-29 21:38:08,946 - url_helper.py[WARNING]: Exception(s) [UrlError("HTTPConnectionPool(host='169.254.169.254', port=80): Max retries exceeded with url: /latest/api/token (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f85a358dfd0>: Failed to establish a new connection: [Errno 101] Network is unreachable',))",), UrlError("HTTPConnectionPool(host='fd00:ec2::254', port=80): Max retries exceeded with url: /latest/api/token (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f85a359a780>: Failed to establish a new connection: [Errno 101] Network is unreachable',))",)] during request to http://[fd00:ec2::254]/latest/api/token, raising last exception
+[   21.954435] cloud-init[539]: 2024-09-29 21:38:08,946 - url_helper.py[WARNING]: Calling 'None' failed [5/120s]: request error [HTTPConnectionPool(host='fd00:ec2::254', port=80): Max retries exceeded with url: /latest/api/token (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f85a359a780>: Failed to establish a new connection: [Errno 101] Network is unreachable',))]
+[   24.101508] cloud-init[539]: 2024-09-29 21:38:11,101 - url_helper.py[WARNING]: Exception(s) [UrlError("HTTPConnectionPool(host='169.254.169.254', port=80): Max retries exceeded with url: /latest/api/token (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f85a330fef0>: Failed to establish a new connection: [Errno 101] Network is unreachable',))",), UrlError("HTTPConnectionPool(host='fd00:ec2::254', port=80): Max retries exceeded with url: /latest/api/token (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f85a3319828>: Failed to establish a new connection: [Errno 101] Network is unreachable',))",)] during request to http://[fd00:ec2::254]/latest/api/token, raising last exception
+[   24.109275] cloud-init[539]: 2024-09-29 21:38:11,101 - url_helper.py[WARNING]: Calling 'None' failed [8/120s]: request error [HTTPConnectionPool(host='fd00:ec2::254', port=80): Max retries exceeded with url: /latest/api/token (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f85a3319828>: Failed to establish a new connection: [Errno 101] Network is unreachable',))]
+[   26.257975] cloud-init[539]: 2024-09-29 21:38:13,257 - url_helper.py[WARNING]: Exception(s) [UrlError("HTTPConnectionPool(host='169.254.169.254', port=80): Max retries exceeded with url: /latest/api/token (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f85a33192b0>: Failed to establish a new connection: [Errno 101] Network is unreachable',))",), UrlError("HTTPConnectionPool(host='fd00:ec2::254', port=80): Max retries exceeded with url: /latest/api/token (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f85a330f588>: Failed to establish a new connection: [Errno 101] Network is unreachable',))",)] during request to http://[fd00:ec2::254]/latest/api/token, raising last exception
+[   26.266199] cloud-init[539]: 2024-09-29 21:38:13,257 - url_helper.py[WARNING]: Calling 'None' failed [10/120s]: request error [HTTPConnectionPool(host='fd00:ec2::254', port=80): Max retries exceeded with url: /latest/api/token (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f85a330f588>: Failed to establish a new connection: [Errno 101] Network is unreachable',))]
+[   28.414116] cloud-init[539]: 2024-09-29 21:38:15,413 - url_helper.py[WARNING]: Exception(s) [UrlError("HTTPConnectionPool(host='169.254.169.254', port=80): Max retries exceeded with url: /latest/api/token (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f85a3326400>: Failed to establish a new connection: [Errno 101] Network is unreachable',))",), UrlError("HTTPConnectionPool(host='fd00:ec2::254', port=80): Max retries exceeded with url: /latest/api/token (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f85a3326e80>: Failed to establish a new connection: [Errno 101] Network is unreachable',))",)] during request to http://[fd00:ec2::254]/latest/api/token, raising last exception
+[   28.422072] cloud-init[539]: 2024-09-29 21:38:15,414 - url_helper.py[WARNING]: Calling 'None' failed [12/120s]: request error [HTTPConnectionPool(host='fd00:ec2::254', port=80): Max retries exceeded with url: /latest/api/token (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f85a3326e80>: Failed to establish a new connection: [Errno 101] Network is unreachable',))]
+[   30.569887] cloud-init[539]: 2024-09-29 21:38:17,569 - url_helper.py[WARNING]: Exception(s) [UrlError("HTTPConnectionPool(host='169.254.169.254', port=80): Max retries exceeded with url: /latest/api/token (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f85a359a4e0>: Failed to establish a new connection: [Errno 101] Network is unreachable',))",), UrlError("HTTPConnectionPool(host='fd00:ec2::254', port=80): Max retries exceeded with url: /latest/api/token (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f85a3326f60>: Failed to establish a new connection: [Errno 101] Network is unreachable',))",)] during request to http://[fd00:ec2::254]/latest/api/token, raising last exception
+[   30.577307] cloud-init[539]: 2024-09-29 21:38:17,569 - url_helper.py[WARNING]: Calling 'None' failed [14/120s]: request error [HTTPConnectionPool(host='fd00:ec2::254', port=80): Max retries exceeded with url: /latest/api/token (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f85a3326f60>: Failed to establish a new connection: [Errno 101] Network is unreachable',))]
+[   32.724644] cloud-init[539]: 2024-09-29 21:38:19,724 - url_helper.py[WARNING]: Exception(s) [UrlError("HTTPConnectionPool(host='169.254.169.254', port=80): Max retries exceeded with url: /latest/api/token (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f85a3334be0>: Failed to establish a new connection: [Errno 101] Network is unreachable',))",), UrlError("HTTPConnectionPool(host='fd00:ec2::254', port=80): Max retries exceeded with url: /latest/api/token (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f85a3343518>: Failed to establish a new connection: [Errno 101] Network is unreachable',))",)] during request to http://[fd00:ec2::254]/latest/api/token, raising last exception
+[   32.732156] cloud-init[539]: 2024-09-29 21:38:19,724 - url_helper.py[WARNING]: Calling 'None' failed [16/120s]: request error [HTTPConnectionPool(host='fd00:ec2::254', port=80): Max retries exceeded with url: /latest/api/token (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f85a3343518>: Failed to establish a new connection: [Errno 101] Network is unreachable',))]
+[   35.881966] cloud-init[539]: 2024-09-29 21:38:22,881 - url_helper.py[WARNING]: Exception(s) [UrlError("HTTPConnectionPool(host='169.254.169.254', port=80): Max retries exceeded with url: /latest/api/token (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f85a33344a8>: Failed to establish a new connection: [Errno 101] Network is unreachable',))",), UrlError("HTTPConnectionPool(host='fd00:ec2::254', port=80): Max retries exceeded with url: /latest/api/token (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f85a3343358>: Failed to establish a new connection: [Errno 101] Network is unreachable',))",)] during request to http://[fd00:ec2::254]/latest/api/token, raising last exception
+[   35.889716] cloud-init[539]: 2024-09-29 21:38:22,881 - url_helper.py[WARNING]: Calling 'None' failed [19/120s]: request error [HTTPConnectionPool(host='fd00:ec2::254', port=80): Max retries exceeded with url: /latest/api/token (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f85a3343358>: Failed to establish a new connection: [Errno 101] Network is unreachable',))]
+[   39.038021] cloud-init[539]: 2024-09-29 21:38:26,037 - url_helper.py[WARNING]: Exception(s) [UrlError("HTTPConnectionPool(host='169.254.169.254', port=80): Max retries exceeded with url: /latest/api/token (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f85a32cc2e8>: Failed to establish a new connection: [Errno 101] Network is unreachable',))",), UrlError("HTTPConnectionPool(host='fd00:ec2::254', port=80): Max retries exceeded with url: /latest/api/token (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f85a32ccb70>: Failed to establish a new connection: [Errno 101] Network is unreachable',))",)] during request to http://[fd00:ec2::254]/latest/api/token, raising last exception
+[   39.045887] cloud-init[539]: 2024-09-29 21:38:26,037 - url_helper.py[WARNING]: Calling 'None' failed [23/120s]: request error [HTTPConnectionPool(host='fd00:ec2::254', port=80): Max retries exceeded with url: /latest/api/token (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f85a32ccb70>: Failed to establish a new connection: [Errno 101] Network is unreachable',))]
+[   42.194451] cloud-init[539]: 2024-09-29 21:38:29,193 - url_helper.py[WARNING]: Exception(s) [UrlError("HTTPConnectionPool(host='169.254.169.254', port=80): Max retries exceeded with url: /latest/api/token (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f85a32d9748>: Failed to establish a new connection: [Errno 101] Network is unreachable',))",), UrlError("HTTPConnectionPool(host='fd00:ec2::254', port=80): Max retries exceeded with url: /latest/api/token (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f85a32e8208>: Failed to establish a new connection: [Errno 101] Network is unreachable',))",)] during request to http://[fd00:ec2::254]/latest/api/token, raising last exception
+[   42.202184] cloud-init[539]: 2024-09-29 21:38:29,202 - url_helper.py[WARNING]: Calling 'None' failed [26/120s]: request error [HTTPConnectionPool(host='fd00:ec2::254', port=80): Max retries exceeded with url: /latest/api/token (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f85a32e8208>: Failed to establish a new connection: [Errno 101] Network is unreachable',))]
+[   45.362158] cloud-init[539]: 2024-09-29 21:38:32,361 - url_helper.py[WARNING]: Exception(s) [UrlError("HTTPConnectionPool(host='169.254.169.254', port=80): Max retries exceeded with url: /latest/api/token (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f85a32cceb8>: Failed to establish a new connection: [Errno 101] Network is unreachable',))",), UrlError("HTTPConnectionPool(host='fd00:ec2::254', port=80): Max retries exceeded with url: /latest/api/token (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f85a32d97b8>: Failed to establish a new connection: [Errno 101] Network is unreachable',))",)] during request to http://[fd00:ec2::254]/latest/api/token, raising last exception
+[   45.369760] cloud-init[539]: 2024-09-29 21:38:32,369 - url_helper.py[WARNING]: Calling 'None' failed [29/120s]: request error [HTTPConnectionPool(host='fd00:ec2::254', port=80): Max retries exceeded with url: /latest/api/token (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f85a32d97b8>: Failed to establish a new connection: [Errno 101] Network is unreachable',))]
+[   48.529938] cloud-init[539]: 2024-09-29 21:38:35,529 - url_helper.py[WARNING]: Exception(s) [UrlError("HTTPConnectionPool(host='169.254.169.254', port=80): Max retries exceeded with url: /latest/api/token (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f85a32e8f28>: Failed to establish a new connection: [Errno 101] Network is unreachable',))",), UrlError("HTTPConnectionPool(host='fd00:ec2::254', port=80): Max retries exceeded with url: /latest/api/token (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f85a32f3860>: Failed to establish a new connection: [Errno 101] Network is unreachable',))",)] during request to http://[fd00:ec2::254]/latest/api/token, raising last exception
+[   48.537570] cloud-init[539]: 2024-09-29 21:38:35,529 - url_helper.py[WARNING]: Calling 'None' failed [32/120s]: request error [HTTPConnectionPool(host='fd00:ec2::254', port=80): Max retries exceeded with url: /latest/api/token (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f85a32f3860>: Failed to establish a new connection: [Errno 101] Network is unreachable',))]
+[   52.686694] cloud-init[539]: 2024-09-29 21:38:39,685 - url_helper.py[WARNING]: Exception(s) [UrlError("HTTPConnectionPool(host='169.254.169.254', port=80): Max retries exceeded with url: /latest/api/token (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f85a32f3390>: Failed to establish a new connection: [Errno 101] Network is unreachable',))",), UrlError("HTTPConnectionPool(host='fd00:ec2::254', port=80): Max retries exceeded with url: /latest/api/token (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f85a32d9400>: Failed to establish a new connection: [Errno 101] Network is unreachable',))",)] during request to http://[fd00:ec2::254]/latest/api/token, raising last exception
+[   52.695957] cloud-init[539]: 2024-09-29 21:38:39,686 - url_helper.py[WARNING]: Calling 'None' failed [36/120s]: request error [HTTPConnectionPool(host='fd00:ec2::254', port=80): Max retries exceeded with url: /latest/api/token (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f85a32d9400>: Failed to establish a new connection: [Errno 101] Network is unreachable',))]
+[   56.844073] cloud-init[539]: 2024-09-29 21:38:43,843 - url_helper.py[WARNING]: Exception(s) [UrlError("HTTPConnectionPool(host='169.254.169.254', port=80): Max retries exceeded with url: /latest/api/token (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f85a32e8d68>: Failed to establish a new connection: [Errno 101] Network is unreachable',))",), UrlError("HTTPConnectionPool(host='fd00:ec2::254', port=80): Max retries exceeded with url: /latest/api/token (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f85a32e80b8>: Failed to establish a new connection: [Errno 101] Network is unreachable',))",)] during request to http://[fd00:ec2::254]/latest/api/token, raising last exception
+[   56.852199] cloud-init[539]: 2024-09-29 21:38:43,843 - url_helper.py[WARNING]: Calling 'None' failed [40/120s]: request error [HTTPConnectionPool(host='fd00:ec2::254', port=80): Max retries exceeded with url: /latest/api/token (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f85a32e80b8>: Failed to establish a new connection: [Errno 101] Network is unreachable',))]
+[   61.000697] cloud-init[539]: 2024-09-29 21:38:48,000 - url_helper.py[WARNING]: Exception(s) [UrlError("HTTPConnectionPool(host='169.254.169.254', port=80): Max retries exceeded with url: /latest/api/token (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f85a32cc7b8>: Failed to establish a new connection: [Errno 101] Network is unreachable',))",), UrlError("HTTPConnectionPool(host='fd00:ec2::254', port=80): Max retries exceeded with url: /latest/api/token (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f85a32e8c88>: Failed to establish a new connection: [Errno 101] Network is unreachable',))",)] during request to http://[fd00:ec2::254]/latest/api/token, raising last exception
+[   61.008196] cloud-init[539]: 2024-09-29 21:38:48,000 - url_helper.py[WARNING]: Calling 'None' failed [44/120s]: request error [HTTPConnectionPool(host='fd00:ec2::254', port=80): Max retries exceeded with url: /latest/api/token (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f85a32e8c88>: Failed to establish a new connection: [Errno 101] Network is unreachable',))]
+[   65.159569] cloud-init[539]: 2024-09-29 21:38:52,159 - url_helper.py[WARNING]: Exception(s) [UrlError("HTTPConnectionPool(host='169.254.169.254', port=80): Max retries exceeded with url: /latest/api/token (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f85a32d92e8>: Failed to establish a new connection: [Errno 101] Network is unreachable',))",), UrlError("HTTPConnectionPool(host='fd00:ec2::254', port=80): Max retries exceeded with url: /latest/api/token (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f85a3343cc0>: Failed to establish a new connection: [Errno 101] Network is unreachable',))",)] during request to http://[fd00:ec2::254]/latest/api/token, raising last exception
+[   65.168129] cloud-init[539]: 2024-09-29 21:38:52,159 - url_helper.py[WARNING]: Calling 'None' failed [49/120s]: request error [HTTPConnectionPool(host='fd00:ec2::254', port=80): Max retries exceeded with url: /latest/api/token (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f85a3343cc0>: Failed to establish a new connection: [Errno 101] Network is unreachable',))]
+[   69.316983] cloud-init[539]: 2024-09-29 21:38:56,316 - url_helper.py[WARNING]: Exception(s) [UrlError("HTTPConnectionPool(host='169.254.169.254', port=80): Max retries exceeded with url: /latest/api/token (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f85a3334c88>: Failed to establish a new connection: [Errno 101] Network is unreachable',))",), UrlError("HTTPConnectionPool(host='fd00:ec2::254', port=80): Max retries exceeded with url: /latest/api/token (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f85a32d9320>: Failed to establish a new connection: [Errno 101] Network is unreachable',))",)] during request to http://[fd00:ec2::254]/latest/api/token, raising last exception
+[   69.325174] cloud-init[539]: 2024-09-29 21:38:56,324 - url_helper.py[WARNING]: Calling 'None' failed [53/120s]: request error [HTTPConnectionPool(host='fd00:ec2::254', port=80): Max retries exceeded with url: /latest/api/token (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f85a32d9320>: Failed to establish a new connection: [Errno 101] Network is unreachable',))]
+[   74.485108] cloud-init[539]: 2024-09-29 21:39:01,484 - url_helper.py[WARNING]: Exception(s) [UrlError("HTTPConnectionPool(host='169.254.169.254', port=80): Max retries exceeded with url: /latest/api/token (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f85a32cc550>: Failed to establish a new connection: [Errno 101] Network is unreachable',))",), UrlError("HTTPConnectionPool(host='fd00:ec2::254', port=80): Max retries exceeded with url: /latest/api/token (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f85a3334748>: Failed to establish a new connection: [Errno 101] Network is unreachable',))",)] during request to http://[fd00:ec2::254]/latest/api/token, raising last exception
+[   74.492672] cloud-init[539]: 2024-09-29 21:39:01,485 - url_helper.py[WARNING]: Calling 'None' failed [58/120s]: request error [HTTPConnectionPool(host='fd00:ec2::254', port=80): Max retries exceeded with url: /latest/api/token (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f85a3334748>: Failed to establish a new connection: [Errno 101] Network is unreachable',))]
+[   79.643844] cloud-init[539]: 2024-09-29 21:39:06,643 - url_helper.py[WARNING]: Exception(s) [UrlError("HTTPConnectionPool(host='169.254.169.254', port=80): Max retries exceeded with url: /latest/api/token (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f85a33269b0>: Failed to establish a new connection: [Errno 101] Network is unreachable',))",), UrlError("HTTPConnectionPool(host='fd00:ec2::254', port=80): Max retries exceeded with url: /latest/api/token (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f85a33346d8>: Failed to establish a new connection: [Errno 101] Network is unreachable',))",)] during request to http://[fd00:ec2::254]/latest/api/token, raising last exception
+[   79.651416] cloud-init[539]: 2024-09-29 21:39:06,643 - url_helper.py[WARNING]: Calling 'None' failed [63/120s]: request error [HTTPConnectionPool(host='fd00:ec2::254', port=80): Max retries exceeded with url: /latest/api/token (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f85a33346d8>: Failed to establish a new connection: [Errno 101] Network is unreachable',))]
+[   84.803270] cloud-init[539]: 2024-09-29 21:39:11,802 - url_helper.py[WARNING]: Exception(s) [UrlError("HTTPConnectionPool(host='169.254.169.254', port=80): Max retries exceeded with url: /latest/api/token (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f85a32d9438>: Failed to establish a new connection: [Errno 101] Network is unreachable',))",), UrlError("HTTPConnectionPool(host='fd00:ec2::254', port=80): Max retries exceeded with url: /latest/api/token (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f85a3319470>: Failed to establish a new connection: [Errno 101] Network is unreachable',))",)] during request to http://[fd00:ec2::254]/latest/api/token, raising last exception
+[   84.811112] cloud-init[539]: 2024-09-29 21:39:11,803 - url_helper.py[WARNING]: Calling 'None' failed [68/120s]: request error [HTTPConnectionPool(host='fd00:ec2::254', port=80): Max retries exceeded with url: /latest/api/token (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f85a3319470>: Failed to establish a new connection: [Errno 101] Network is unreachable',))]
+[   89.962716] cloud-init[539]: 2024-09-29 21:39:16,962 - url_helper.py[WARNING]: Exception(s) [UrlError("HTTPConnectionPool(host='169.254.169.254', port=80): Max retries exceeded with url: /latest/api/token (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f85a3319cf8>: Failed to establish a new connection: [Errno 101] Network is unreachable',))",), UrlError("HTTPConnectionPool(host='fd00:ec2::254', port=80): Max retries exceeded with url: /latest/api/token (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f85a359aa90>: Failed to establish a new connection: [Errno 101] Network is unreachable',))",)] during request to http://[fd00:ec2::254]/latest/api/token, raising last exception
+[   89.970509] cloud-init[539]: 2024-09-29 21:39:16,962 - url_helper.py[WARNING]: Calling 'None' failed [73/120s]: request error [HTTPConnectionPool(host='fd00:ec2::254', port=80): Max retries exceeded with url: /latest/api/token (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f85a359aa90>: Failed to establish a new connection: [Errno 101] Network is unreachable',))]
+[   95.121772] cloud-init[539]: 2024-09-29 21:39:22,121 - url_helper.py[WARNING]: Exception(s) [UrlError("HTTPConnectionPool(host='169.254.169.254', port=80): Max retries exceeded with url: /latest/api/token (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f85a3334550>: Failed to establish a new connection: [Errno 101] Network is unreachable',))",), UrlError("HTTPConnectionPool(host='fd00:ec2::254', port=80): Max retries exceeded with url: /latest/api/token (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f85a359a1d0>: Failed to establish a new connection: [Errno 101] Network is unreachable',))",)] during request to http://[fd00:ec2::254]/latest/api/token, raising last exception
+[   95.129936] cloud-init[539]: 2024-09-29 21:39:22,121 - url_helper.py[WARNING]: Calling 'None' failed [79/120s]: request error [HTTPConnectionPool(host='fd00:ec2::254', port=80): Max retries exceeded with url: /latest/api/token (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f85a359a1d0>: Failed to establish a new connection: [Errno 101] Network is unreachable',))]
+[  101.281067] cloud-init[539]: 2024-09-29 21:39:28,280 - url_helper.py[WARNING]: Exception(s) [UrlError("HTTPConnectionPool(host='169.254.169.254', port=80): Max retries exceeded with url: /latest/api/token (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f85a330ffd0>: Failed to establish a new connection: [Errno 101] Network is unreachable',))",), UrlError("HTTPConnectionPool(host='fd00:ec2::254', port=80): Max retries exceeded with url: /latest/api/token (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f85a330f0b8>: Failed to establish a new connection: [Errno 101] Network is unreachable',))",)] during request to http://[fd00:ec2::254]/latest/api/token, raising last exception
+[  101.289028] cloud-init[539]: 2024-09-29 21:39:28,281 - url_helper.py[WARNING]: Calling 'None' failed [85/120s]: request error [HTTPConnectionPool(host='fd00:ec2::254', port=80): Max retries exceeded with url: /latest/api/token (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f85a330f0b8>: Failed to establish a new connection: [Errno 101] Network is unreachable',))]
+[  107.441981] cloud-init[539]: 2024-09-29 21:39:34,441 - url_helper.py[WARNING]: Exception(s) [UrlError("HTTPConnectionPool(host='169.254.169.254', port=80): Max retries exceeded with url: /latest/api/token (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f85a32e8898>: Failed to establish a new connection: [Errno 101] Network is unreachable',))",), UrlError("HTTPConnectionPool(host='fd00:ec2::254', port=80): Max retries exceeded with url: /latest/api/token (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f85a330f9e8>: Failed to establish a new connection: [Errno 101] Network is unreachable',))",)] during request to http://[fd00:ec2::254]/latest/api/token, raising last exception
+[  107.449992] cloud-init[539]: 2024-09-29 21:39:34,442 - url_helper.py[WARNING]: Calling 'None' failed [91/120s]: request error [HTTPConnectionPool(host='fd00:ec2::254', port=80): Max retries exceeded with url: /latest/api/token (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f85a330f9e8>: Failed to establish a new connection: [Errno 101] Network is unreachable',))]
+[  113.601805] cloud-init[539]: 2024-09-29 21:39:40,601 - url_helper.py[WARNING]: Exception(s) [UrlError("HTTPConnectionPool(host='169.254.169.254', port=80): Max retries exceeded with url: /latest/api/token (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f85a358d8d0>: Failed to establish a new connection: [Errno 101] Network is unreachable',))",), UrlError("HTTPConnectionPool(host='fd00:ec2::254', port=80): Max retries exceeded with url: /latest/api/token (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f85a357f9e8>: Failed to establish a new connection: [Errno 101] Network is unreachable',))",)] during request to http://[fd00:ec2::254]/latest/api/token, raising last exception
+[  113.609135] cloud-init[539]: 2024-09-29 21:39:40,601 - url_helper.py[WARNING]: Calling 'None' failed [97/120s]: request error [HTTPConnectionPool(host='fd00:ec2::254', port=80): Max retries exceeded with url: /latest/api/token (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f85a357f9e8>: Failed to establish a new connection: [Errno 101] Network is unreachable',))]
+[  119.761334] cloud-init[539]: 2024-09-29 21:39:46,760 - url_helper.py[WARNING]: Exception(s) [UrlError("HTTPConnectionPool(host='169.254.169.254', port=80): Max retries exceeded with url: /latest/api/token (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f85a33194e0>: Failed to establish a new connection: [Errno 101] Network is unreachable',))",), UrlError("HTTPConnectionPool(host='fd00:ec2::254', port=80): Max retries exceeded with url: /latest/api/token (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f85a357fda0>: Failed to establish a new connection: [Errno 101] Network is unreachable',))",)] during request to http://[fd00:ec2::254]/latest/api/token, raising last exception
+[  119.768901] cloud-init[539]: 2024-09-29 21:39:46,761 - url_helper.py[WARNING]: Calling 'None' failed [103/120s]: request error [HTTPConnectionPool(host='fd00:ec2::254', port=80): Max retries exceeded with url: /latest/api/token (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f85a357fda0>: Failed to establish a new connection: [Errno 101] Network is unreachable',))]
+[  125.922509] cloud-init[539]: 2024-09-29 21:39:52,921 - url_helper.py[WARNING]: Exception(s) [UrlError("HTTPConnectionPool(host='169.254.169.254', port=80): Max retries exceeded with url: /latest/api/token (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f85a357f630>: Failed to establish a new connection: [Errno 101] Network is unreachable',))",), UrlError("HTTPConnectionPool(host='fd00:ec2::254', port=80): Max retries exceeded with url: /latest/api/token (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f85a3571208>: Failed to establish a new connection: [Errno 101] Network is unreachable',))",)] during request to http://[fd00:ec2::254]/latest/api/token, raising last exception
+[  125.930411] cloud-init[539]: 2024-09-29 21:39:52,921 - url_helper.py[WARNING]: Calling 'None' failed [109/120s]: request error [HTTPConnectionPool(host='fd00:ec2::254', port=80): Max retries exceeded with url: /latest/api/token (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f85a3571208>: Failed to establish a new connection: [Errno 101] Network is unreachable',))]
+[  133.082436] cloud-init[539]: 2024-09-29 21:40:00,081 - url_helper.py[WARNING]: Exception(s) [UrlError("HTTPConnectionPool(host='169.254.169.254', port=80): Max retries exceeded with url: /latest/api/token (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f85a32d97b8>: Failed to establish a new connection: [Errno 101] Network is unreachable',))",), UrlError("HTTPConnectionPool(host='fd00:ec2::254', port=80): Max retries exceeded with url: /latest/api/token (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f85a3571860>: Failed to establish a new connection: [Errno 101] Network is unreachable',))",)] during request to http://[fd00:ec2::254]/latest/api/token, raising last exception
+[  133.090259] cloud-init[539]: 2024-09-29 21:40:00,082 - url_helper.py[WARNING]: Calling 'None' failed [117/120s]: request error [HTTPConnectionPool(host='fd00:ec2::254', port=80): Max retries exceeded with url: /latest/api/token (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f85a3571860>: Failed to establish a new connection: [Errno 101] Network is unreachable',))]
+[  140.091619] cloud-init[539]: 2024-09-29 21:40:07,091 - url_helper.py[WARNING]: Timed out waiting for addresses: http://169.254.169.254/latest/api/token http://[fd00:ec2::254]/latest/api/token, exception(s) raised while waiting:
+[  140.094978] cloud-init[539]: 2024-09-29 21:40:07,094 - url_helper.py[WARNING]: Calling 'None' failed [124/120s]: unexpected error ['NoneType' object has no attribute 'contents']
+[  140.097380] cloud-init[539]: 2024-09-29 21:40:07,095 - url_helper.py[ERROR]: Timed out, no response from urls: ['http://169.254.169.254/latest/api/token', 'http://[fd00:ec2::254]/latest/api/token']
+[  140.099583] cloud-init[539]: 2024-09-29 21:40:07,095 - DataSourceEc2.py[WARNING]: IMDS's HTTP endpoint is probably disabled
+[  140.168261] cloud-init[539]: 2024-09-29 21:40:07,167 - stages.py[WARNING]: Failed to rename devices: [nic not present] Cannot rename mac=00:00:00:00 to sit0, not available.
+[  140.390349] cloud-init[539]: 2024-09-29 21:40:07,390 - util.py[WARNING]: Failed growpart --dry-run for (/dev/sda, 1)
+[  140.852217] cloud-init[539]: Generating public/private rsa key pair.
+[  140.854219] cloud-init[539]: Your identification has been saved in /etc/ssh/ssh_host_rsa_key.
+[  140.855372] cloud-init[539]: Your public key has been saved in /etc/ssh/ssh_host_rsa_key.pub.
+[  140.856486] cloud-init[539]: The key fingerprint is:
+[  140.857547] cloud-init[539]: SHA256:3Z1nPcY0HFhQgL0y7HP/jUgBDwMXCvORbq1wfZdZsms root@ip-10-0-3-64
+[  140.858765] cloud-init[539]: The key's randomart image is:
+[  140.859550] cloud-init[539]: +---[RSA 2048]----+
+[  140.860546] cloud-init[539]: |      o o.o.oo*+ |
+[  140.861710] cloud-init[539]: |       +.= . oo o|
+[  140.862412] cloud-init[539]: |       .oo=   .X |
+[  140.863105] cloud-init[539]: |      . +.oX.oB.o|
+[  140.863784] cloud-init[539]: |       +S.o.*.o=+|
+[  140.864452] cloud-init[539]: |        .  o oEo.|
+[  140.865098] cloud-init[539]: |            +..  |
+[  140.865727] cloud-init[539]: |           . . o.|
+[  140.866377] cloud-init[539]: |            . . +|
+[  140.867033] cloud-init[539]: +----[SHA256]-----+
+[  140.867666] cloud-init[539]: Generating public/private dsa key pair.
+[  140.868496] cloud-init[539]: Your identification has been saved in /etc/ssh/ssh_host_dsa_key.
+[  140.869631] cloud-init[539]: Your public key has been saved in /etc/ssh/ssh_host_dsa_key.pub.
+[  140.870730] cloud-init[539]: The key fingerprint is:
+[  140.871406] cloud-init[539]: SHA256:6Wtk5lOO1vnV66t4hDDO2Yy0bXEcTntBE6IjRhPEoJY root@ip-10-0-3-64
+[  140.872576] cloud-init[539]: The key's randomart image is:
+[  140.873326] cloud-init[539]: +---[DSA 1024]----+
+[  140.874026] cloud-init[539]: |       .+=.  ..+.|
+[  140.874682] cloud-init[539]: |      o ... .o...|
+[  140.875657] cloud-init[539]: |     E   o o+ o .|
+[  140.876314] cloud-init[539]: |    .   .=...= . |
+[  140.876935] cloud-init[539]: |        S X + .  |
+[  140.877606] cloud-init[539]: |       .+*.* . . |
+[  140.878291] cloud-init[539]: |       =.=... . .|
+[  140.878932] cloud-init[539]: |        *.+ .o  .|
+[  140.879570] cloud-init[539]: |       o.. oo.o+.|
+[  140.880606] cloud-init[539]: +----[SHA256]-----+
+[  140.881273] cloud-init[539]: Generating public/private ecdsa key pair.
+[  140.882179] cloud-init[539]: Your identification has been saved in /etc/ssh/ssh_host_ecdsa_key.
+[  140.883308] cloud-init[539]: Your public key has been saved in /etc/ssh/ssh_host_ecdsa_key.pub.
+[  140.884526] cloud-init[539]: The key fingerprint is:
+[  140.885189] cloud-init[539]: SHA256:WTIZSHSNTeIEWBN5XH7QjZrPqOJuZmOeW4/m0lYyTAo root@ip-10-0-3-64
+[  140.886361] cloud-init[539]: The key's randomart image is:
+[  140.887110] cloud-init[539]: +---[ECDSA 256]---+
+[  140.887812] cloud-init[539]: |     =B*=*+. o   |
+[  140.888480] cloud-init[539]: |    . o=+=o.o .  |
+[  140.889168] cloud-init[539]: |       .= oo.    |
+[  140.889843] cloud-init[539]: |    E   .=o.     |
+[  140.890536] cloud-init[539]: |     . +S  +     |
+[  140.891177] cloud-init[539]: |      . + o o    |
+[  140.891838] cloud-init[539]: |       ..=       |
+[  140.893387] cloud-init[539]: |      Oo=o       |
+[  140.894054] cloud-init[539]: |     O*Oo .      |
+[  140.894704] cloud-init[539]: +----[SHA256]-----+
+[  140.895335] cloud-init[539]: Generating public/private ed25519 key pair.
+[  140.896209] cloud-init[539]: Your identification has been saved in /etc/ssh/ssh_host_ed25519_key.
+[  140.897354] cloud-init[539]: Your public key has been saved in /etc/ssh/ssh_host_ed25519_key.pub.
+[  140.898520] cloud-init[539]: The key fingerprint is:
+[  140.899228] cloud-init[539]: SHA256:53WgoraNwetpITuPcD+YDCS7sbD5NyFuExtLJP3nlgA root@ip-10-0-3-64
+[  140.900381] cloud-init[539]: The key's randomart image is:
+[  140.901640] cloud-init[539]: +--[ED25519 256]--+
+[  140.902644] cloud-init[539]: |                 |
+[  140.903436] cloud-init[539]: |                 |
+[  140.904100] cloud-init[539]: | .          .    |
+[  140.904762] cloud-init[539]: |o E        . .   |
+[  140.905425] cloud-init[539]: | * o    S o . .  |
+[  140.906126] cloud-init[539]: |+ * =.o. + . .   |
+[  140.907217] cloud-init[539]: |.O.O.X=o  .      |
+[  140.907862] cloud-init[539]: |= *oO+*B         |
+[  140.908551] cloud-init[539]: | o.o.BO..        |
+[  140.909219] cloud-init[539]: +----[SHA256]-----+
+[[0;32m  OK  [0m] Started Initial cloud-init job (metadata service crawler).
+[[0;32m  OK  [0m] Reached target Cloud-config availability.
+[[0;32m  OK  [0m] Reached target Network is Online.
+         Starting Availability of block devices...
+[[0;32m  OK  [0m] Reached target Remote File Systems (Pre).
+[[0;32m  OK  [0m] Reached target Remote File Systems.
+[[0;32m  OK  [0m] Reached target System Initialization.
+[[0;32m  OK  [0m] Started Message of the Day.
+[[0;32m  OK  [0m] Started ACPI Events Check.
+[[0;32m  OK  [0m] Listening on D-Bus System Message Bus Socket.
+[[0;32m  OK  [0m] Started Discard unused blocks once a week.
+[[0;32m  OK  [0m] Listening on Open-iSCSI iscsid Socket.
+[[0;32m  OK  [0m] Listening on ACPID Listen Socket.
+[[0;32m  OK  [0m] Reached target Paths.
+         Starting Socket activation for snappy daemon.
+[[0;32m  OK  [0m] Listening on UUID daemon activation socket.
+[[0;32m  OK  [0m] Listening on cloud-init hotplug hook socket.
+[[0;32m  OK  [0m] Started Daily Cleanup of Temporary Directories.
+         Starting LXD - unix socket.
+[[0;32m  OK  [0m] Started Daily apt download activities.
+[[0;32m  OK  [0m] Started Daily apt upgrade and clean activities.
+[[0;32m  OK  [0m] Reached target Timers.
+[[0;32m  OK  [0m] Started Availability of block devices.
+[[0;32m  OK  [0m] Listening on Socket activation for snappy daemon.
+[[0;32m  OK  [0m] Listening on LXD - unix socket.
+[[0;32m  OK  [0m] Reached target Sockets.
+[[0;32m  OK  [0m] Reached target Basic System.
+[[0;32m  OK  [0m] Started irqbalance daemon.
+         Starting LSB: Record successful boot for GRUB...
+         Starting LSB: automatic crash report generation...
+         Starting LXD - container startup/shutdown...
+         Starting System Logging Service...
+         Starting Dispatcher daemon for systemd-networkd...
+[[0;32m  OK  [0m] Started D-Bus System Message Bus.
+[[0;32m  OK  [0m] Started Deferred execution scheduler.
+[[0;32m  OK  [0m] Started Regular background program processing daemon.
+         Starting Snap Daemon...
+         Starting Accounts Service...
+         Starting OpenBSD Secure Shell server...
+[[0;32m  OK  [0m] Started FUSE filesystem for LXC.
+         Starting Permit User Sessions...
+[[0;32m  OK  [0m] Reached target Login Prompts (Pre).
+         Starting Login Service...
+[[0;32m  OK  [0m] Started ACPI event daemon.
+[[0;32m  OK  [0m] Started System Logging Service.
+[[0;32m  OK  [0m] Started Permit User Sessions.
+         Starting Terminate Plymouth Boot Screen...
+         Starting Hold until boot process finishes up...
+[[0;32m  OK  [0m] Started Hold until boot process finishes up.
+         Starting Set console scheme...
+[[0;32m  OK  [0m] Started Serial Getty on ttyS0.
+[[0;32m  OK  [0m] Started Terminate Plymouth Boot Screen.
+[[0;32m  OK  [0m] Started Set console scheme.
+[[0;32m  OK  [0m] Created slice system-getty.slice.
+[[0;32m  OK  [0m] Started Getty on tty1.
+[[0;32m  OK  [0m] Reached target Login Prompts.
+[[0;32m  OK  [0m] Started LSB: automatic crash report generation.
+[[0;32m  OK  [0m] Started Login Service.
+[[0;32m  OK  [0m] Started Unattended Upgrades Shutdown.
+[[0;32m  OK  [0m] Started LSB: Record successful boot for GRUB.
+[[0;32m  OK  [0m] Stopped FUSE filesystem for LXC.
+[[0;32m  OK  [0m] Started FUSE filesystem for LXC.
+[[0;32m  OK  [0m] Stopped FUSE filesystem for LXC.
+[[0;32m  OK  [0m] Started FUSE filesystem for LXC.
+         Starting Authorization Manager...
+[[0;32m  OK  [0m] Started OpenBSD Secure Shell server.
+[[0;32m  OK  [0m] Stopped FUSE filesystem for LXC.
+[[0;32m  OK  [0m] Started FUSE filesystem for LXC.
+[[0;32m  OK  [0m] Started Dispatcher daemon for systemd-networkd.
+[[0;32m  OK  [0m] Stopped FUSE filesystem for LXC.
+[[0;32m  OK  [0m] Started FUSE filesystem for LXC.
+[[0;32m  OK  [0m] Started Authorization Manager.
+[[0;32m  OK  [0m] Stopped FUSE filesystem for LXC.
+[[0;1;31mFAILED[0m] Failed to start FUSE filesystem for LXC.
+See 'systemctl status lxcfs.service' for details.
+[[0;32m  OK  [0m] Started Accounts Service.
+[[0;32m  OK  [0m] Started LXD - container startup/shutdown.
+
+Ubuntu 18.04.6 LTS ip-10-0-3-64 ttyS0
+
+ip-10-0-3-64 login: [  147.955913] cloud-init[753]: Cloud-init v. 23.1.2-0ubuntu0~18.04.1 running 'modules:config' at Sun, 29 Sep 2024 21:40:14 +0000. Up 147.86 seconds.
+[  148.806391] cloud-init[769]: Cloud-init v. 23.1.2-0ubuntu0~18.04.1 running 'modules:final' at Sun, 29 Sep 2024 21:40:15 +0000. Up 148.66 seconds.
+[  148.806524] cloud-init[769]: Cloud-init v. 23.1.2-0ubuntu0~18.04.1 finished at Sun, 29 Sep 2024 21:40:15 +0000. Datasource DataSourceNone.  Up 148.79 seconds
+[  148.806834] cloud-init[769]: 2024-09-29 21:40:15,805 - cc_final_message.py[WARNING]: Used fallback datasource
